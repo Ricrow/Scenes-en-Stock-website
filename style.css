@@ -1,0 +1,14 @@
+/* Header */
+
+.logo {
+  height: 12em;
+}
+
+.icon {
+  width: 2em;
+  margin-left: 1em;
+}
+
+div {
+  border: 1px solid black;
+}
