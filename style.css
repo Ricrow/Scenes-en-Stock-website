@@ -1,9 +1,5 @@
 /* Header */
 
-.logo {
-  height: 12em;
-}
-
 .icon {
   width: 2em;
   margin-left: 1em;
@@ -93,11 +89,6 @@ aside > div > .btn:hover {
 }
 
 /* Footer */
-
-footer {
-  margin-bottom: 20px;
-
-}
 
 footer > div {
   border: 5px solid rgb(198,31,39);
