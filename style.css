@@ -37,6 +37,23 @@
 
 /* Main */
 
+main > aside {
+  border: 1px solid black;
+}
+
+aside > div > h1 {
+  border: 5px solid rgb(198,31,39);
+  border-bottom: 0;
+  height: 60px;
+  margin: 0;
+}
+
+aside > div > div {
+  border: 5px solid rgb(198,31,39);
+  height: 60px;
+  margin: 0;
+}
+
 main > div {
   border: 1px solid black;
   height: 800px;
