@@ -11,6 +11,10 @@
 
 /* Nav */
 
+nav {
+  margin-bottom: 20px;
+}
+
 .navbar {
   background-color: rgb(198,31,39);
   margin: 50px;
@@ -36,6 +40,11 @@
 }
 
 /* Main */
+
+main {
+  display: flex;
+  justify-content: center;
+}
 
 /* Aside */
 
