@@ -34,3 +34,10 @@
 .navbar-nav .nav-item .nav-link:hover {
   color: white;
 }
+
+/* Main */
+
+main > div {
+  border: 1px solid black;
+  height: 800px;
+}
