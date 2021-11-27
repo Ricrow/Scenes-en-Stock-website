@@ -9,6 +9,10 @@
   margin-left: 1em;
 }
 
+.icon:hover {
+  filter: drop-shadow( 0 0 1px rgb(0, 0, 0));
+}
+
 /* Nav */
 
 nav {
