@@ -16,18 +16,21 @@ nav {
 }
 
 .navbar {
-  background-color: rgb(198,31,39);
   margin: 50px;
 }
 
 .nav-item {
-  font-size: 1.2em;
-  color: rgb(45,45,45);
   background-color: white;
+  border: 5px solid rgb(198,31,39);
+  border-left: 0;
+  border-right: 0;
 }
 
-.nav-item:hover{
-  background-color: rgb(198,31,39);
+@media only screen and (max-width: 767px) {
+  .middle-border {
+    border-top: 0;
+    border-bottom: 0;
+  }
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -36,6 +39,7 @@ nav {
   font-size: 1.2em;
 }
 .navbar-nav .nav-item .nav-link:hover {
+  background-color: rgb(198,31,39);
   color: white;
 }
 
@@ -92,6 +96,7 @@ aside > div > .btn:hover {
 
 footer > div {
   border: 5px solid rgb(198,31,39);
+  background-color: white;
   border-left: 0;
   border-right: 0;
 }
